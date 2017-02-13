@@ -1,4 +1,4 @@
-# AsteroidJunitProject
+                                             # AsteroidJunitProject
 
 
 ###  Assumptions:
@@ -15,13 +15,14 @@ Here are the bugs found in the code as per my test cases logic:
 ### Failures Scenario:
 
 1) The score get updated when asteroid and player collides. I have found it through test case 2.
+
 As part of this I have added Player at one position and asteroid at the same position as player. Then I have called updateGame method of game which will check for collision and then lives got decremented. However the score should not have updated by 20 . The application added the large asteroid kill value to total score which is not correct.
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase2.JPG)
 
 
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 
 
@@ -35,7 +36,8 @@ However for X coordinate , it will getting 3 point up and on Y axis it is 1 poin
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase5.JPG)
 
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
+
 
 
 3) When player thrust is enabled, the player moves by 3 times as velocity is multiplied by 3 while adding it to position. This is tested by test case 6.
@@ -45,7 +47,8 @@ Also the new position expected coordinated should move by one notch of velocity 
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase6.JPG)
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
+
 
 ### Success Scenario:
 
@@ -55,7 +58,8 @@ As part of this I have created asteroid at same position as player on X axis and
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success1.JPG)
 
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
+
 
 2) Test collision check flag between asteroid and player
 As part of this I have added player an asteroid at different position and checked for collision. It did not happen.
@@ -63,22 +67,24 @@ Also I have added player and asteroid at same position. The checkCollision metho
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success2.JPG)
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
 
 
 3) Test Game level after all enemies are dead
+
 As part of this I have killed all asteroids and then checked the game level. It should go one notch up.
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success3.JPG)
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 4) Checking for Game entities.
+
 As part of this I have added five asteroids and updated game. Then checked for existing entities and pending entities.
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success4.JPG)
 
-Code:
+[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 
 ### The following functions are performed by updateGame method of Entity class.:
