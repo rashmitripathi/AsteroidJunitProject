@@ -22,7 +22,7 @@ As part of this I have added Player at one position and asteroid at the same pos
 
 
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 
 
@@ -36,7 +36,7 @@ However for X coordinate , it will getting 3 point up and on Y axis it is 1 poin
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase5.JPG)
 
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
 
 
 
@@ -47,7 +47,7 @@ Also the new position expected coordinated should move by one notch of velocity 
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase6.JPG)
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
 
 
 ### Success Scenario:
@@ -58,7 +58,7 @@ As part of this I have created asteroid at same position as player on X axis and
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success1.JPG)
 
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 
 2) Test collision check flag between asteroid and player
@@ -67,7 +67,7 @@ Also I have added player and asteroid at same position. The checkCollision metho
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success2.JPG)
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/EntityTestController.java)
 
 
 3) Test Game level after all enemies are dead
@@ -76,7 +76,7 @@ As part of this I have killed all asteroids and then checked the game level. It 
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success3.JPG)
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 4) Checking for Game entities.
 
@@ -84,16 +84,21 @@ As part of this I have added five asteroids and updated game. Then checked for e
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success4.JPG)
 
-[Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
+[Source Code](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/Asteroids-Testing/Asteroids-Testing/Asteroids/test/edu/umkc/rashmi/GameTestController.java)
 
 
 ### The following functions are performed by updateGame method of Entity class.:
 
 o Setting and resetting entities list and pending entities list
+
 o Handle collisions and in reverse update score
+
 o Check for collisions
+
 o Making level up in case all enemies are dead
+
 o Checking for is game over or not and taking corresponding actions.
+
 Following four test case were checked for the same: 
 
 
@@ -130,5 +135,6 @@ To kill asteroids we need to make property of entity i.e needsRemoval as true.Up
                                     
 
 ## screenshot of the result of running your test suite.
+
 
 ![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/smttestsuite.jpg)
