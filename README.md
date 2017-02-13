@@ -1,4 +1,4 @@
-                                             # AsteroidJunitProject
+# AsteroidJunitProject
 
 
 ###  Assumptions:
