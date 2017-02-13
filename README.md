@@ -43,7 +43,7 @@ As part of this I have thrusted the player and then called update game. After th
 Also the new position expected coordinated should move by one notch of velocity which did not happen.
 
 
-![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcasesresult.JPG)
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase6.JPG)
 
 Code:
 
@@ -52,27 +52,37 @@ Code:
 1) Collision between bullet and large asteroid yielding correct score
 As part of this I have created asteroid at same position as player on X axis and then fired bullets. Then called updateGame method . It checked for collision and updated score.
 
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success1.JPG)
+
+
 Code:
 
 2) Test collision check flag between asteroid and player
 As part of this I have added player an asteroid at different position and checked for collision. It did not happen.
 Also I have added player and asteroid at same position. The checkCollision method returned true.
+
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success2.JPG)
+
 Code:
 
 
 3) Test Game level after all enemies are dead
 As part of this I have killed all asteroids and then checked the game level. It should go one notch up.
 
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success3.JPG)
+
 Code:
 
 4) Checking for Game entities.
 As part of this I have added five asteroids and updated game. Then checked for existing entities and pending entities.
+
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/success4.JPG)
+
 Code:
 
 
-2. Specifically explain the test case that you have created for the updateGame method of Class Game. What is your input, and what is your expected output? What is your logic of testing this method?
+### The following functions are performed by updateGame method of Entity class.:
 
-The following functions are performed by updateGame method:
 o Setting and resetting entities list and pending entities list
 o Handle collisions and in reverse update score
 o Check for collisions
@@ -115,3 +125,4 @@ To kill asteroids we need to make property of entity i.e needsRemoval as true.Up
 
 ## screenshot of the result of running your test suite.
 
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/smttestsuite.JPG)
