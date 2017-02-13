@@ -7,13 +7,18 @@ The player and asteroid should not move at high speed as it seems to be.Score sh
 As part of this project seven test cases are done and out of which three test cases are failing. These are
 described below:
 
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcasesresult.JPG)
 
 
 Here are the bugs found in the code as per my test cases logic: 
 
-Failures Scenario:
+### Failures Scenario:
+
 1) The score get updated when asteroid and player collides. I have found it through test case 2.
 As part of this I have added Player at one position and asteroid at the same position as player. Then I have called updateGame method of game which will check for collision and then lives got decremented. However the score should not have updated by 20 . The application added the large asteroid kill value to total score which is not correct.
+
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase2.JPG)
+
 
 
 Code:
@@ -21,10 +26,14 @@ Code:
 
 
 2) Asteroid is moving at high speed than expected. This is tested by Test case 5.
+
 As part of this I have added asteroid , got its old velocity and position. After that I updated the game.
 The new positions expectation are
 New position = old position +velocity;
 However for X coordinate , it will getting 3 point up and on Y axis it is 1 point up. Because of which asteroids are moving with very high speed before the player can even fire.
+
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcase5.JPG)
+
 
 Code:
 
@@ -33,9 +42,12 @@ Code:
 As part of this I have thrusted the player and then called update game. After this the old and new positions should not be same.
 Also the new position expected coordinated should move by one notch of velocity which did not happen.
 
+
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/testcasesresult.JPG)
+
 Code:
 
-Success Scenario:
+### Success Scenario:
 
 1) Collision between bullet and large asteroid yielding correct score
 As part of this I have created asteroid at same position as player on X axis and then fired bullets. Then called updateGame method . It checked for collision and updated score.
