@@ -131,4 +131,4 @@ To kill asteroids we need to make property of entity i.e needsRemoval as true.Up
 
 ## screenshot of the result of running your test suite.
 
-![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/smttestsuite.JPG)
+![](https://github.com/rashmitripathi/Asteroid_Game_Junit_Project/blob/master/screenshots/smttestsuite.jpg)
